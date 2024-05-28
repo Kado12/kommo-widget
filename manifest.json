@@ -1,0 +1,37 @@
+{
+  "name": "KOMMO",
+  "description": "API encontrar disponibilidad de personal",
+  "version": "1.0",
+  "author": "Gonzalo Sotelo",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "api",
+    "contacts",
+    "leads"
+  ],
+  "api": {
+    "baseUrl": "https://my-json-server.typicode.com/Kado12/API-dummy/days",
+    "auth": {
+      "type": "oauth2",
+      "clientId": "tu-client-id",
+      "clientSecret": "tu-client-secret",
+      "redirectUri": "https://66560930ad64be4a19c5ef71--cosmic-truffle-6710b0.netlify.app/"
+    }
+  },
+  "triggers": [
+    {
+      "event": "lead.created",
+      "handler": "handleLeadCreated"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Crear lead",
+      "handler": "createLead"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "days": [
+    {
+      "fecha": "2024-05-28",
+      "personal_disponible": [
+        {
+          "nombre": "Silvia Biana",
+          "horario": [
+            "8:00 - 12:00",
+            "14:00-18:00"
+          ],
+          "id": "123456"
+        },
+        {
+          "nombre": "Lorena García",
+          "horario": [
+            "13:00-19:00"
+          ],
+          "id": "234567"
+        },
+        {
+          "nombre": "Susana Salas",
+          "horario": [
+            "9:00 - 12:00",
+            "16:00-20:00"
+          ],
+          "id": "345678"
+        },
+        {
+          "nombre": "Silvia Biana",
+          "horario": [
+            "8:00 - 12:00",
+            "14:00-18:00"
+          ],
+          "id": "456789"
+        }
+      ]
+    },
+    {
+      "fecha": "2024-05-30",
+      "personal_disponible": [
+        {
+          "nombre": "Ana Biana",
+          "horario": [
+            "8:00 - 12:00",
+            "14:00-18:00"
+          ],
+          "id": "123456"
+        },
+        {
+          "nombre": "Elvira García",
+          "horario": [
+            "13:00-19:00"
+          ],
+          "id": "234567"
+        },
+        {
+          "nombre": "Karla Salas",
+          "horario": [
+            "9:00 - 12:00",
+            "16:00-20:00"
+          ],
+          "id": "345678"
+        },
+        {
+          "nombre": "Emy Biana",
+          "horario": [
+            "8:00 - 12:00",
+            "14:00-18:00"
+          ],
+          "id": "456789"
+        }
+      ]
+    }
+  ]
+}

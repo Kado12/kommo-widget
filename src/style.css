@@ -1,0 +1,39 @@
+body {
+  background-color: #485596;
+  color: white
+}
+
+.container {
+  background-color: #4855dd;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.container .container-button {
+  border: none;
+  border-radius: 8px;
+  height: 44px;
+  width: 120px;
+  font-size: medium;
+  background-color: #a31212;
+  transition: all .3s;
+  color: white;
+  margin-top: 32px;
+}
+
+.container-button:hover {
+  background-color: #6a0606;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(191, 191, 191);
+  transition: all .3s;
+
+}
+
+a:hover {
+  color: black;
+}
